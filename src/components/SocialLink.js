@@ -7,7 +7,7 @@ const socialLink = (props) =>
             <a href={props.url} 
             target="_blank" 
             rel="noopener noreferrer">
-            <FontAwesomeIcon icon={['fab', props.className]} />
+            <FontAwesomeIcon icon={props.icon} />
             </a>
         </li>
     )

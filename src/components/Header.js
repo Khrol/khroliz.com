@@ -1,5 +1,5 @@
 import React from 'react';
-import SocialLink from './SocialLink';
+import SocialLinks from './SocialLinks';
 
 const header = () => {
     return (        
@@ -13,6 +13,7 @@ const header = () => {
 	                <li><a className="smoothscroll" href="#about">About</a></li>
 	                <li><a className="smoothscroll" href="#resume">Resume</a></li>
 	                <li><a className="smoothscroll" href="#presentations">Presentations</a></li>
+	                <li><a className="smoothscroll" href="#misc">Misc</a></li>
                 </ul>
             </nav>
             <div className="row banner">
@@ -24,15 +25,7 @@ const header = () => {
                     <a className="smoothscroll" href="#about"> start scrolling </a>
                     and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
                     <hr />
-                    <ul className="social">
-                        <SocialLink url="http://www.linkedin.com/in/khroliz" className="linkedin" />
-                        <SocialLink url="https://github.com/Khrol" className="github" />
-                        <SocialLink url="https://t.me/khroliz" className="telegram" />
-                        <SocialLink url="skype:igor.khrol?chat" className="skype" />
-                        <SocialLink url="https://www.facebook.com/khroliz" className="facebook" />
-                        <SocialLink url="viber://chat?number=375297447856" className="viber" />
-                        <SocialLink url="https://www.slideshare.net/khroliz" className="slideshare" />
-                    </ul>
+                    <SocialLinks className="social" />
                 </div>
             </div>
 
