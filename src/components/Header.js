@@ -8,8 +8,8 @@ const header = () => {
                 <a className="mobile-btn" href="/#nav-wrap" title="Show navigation">Show navigation</a>
                 <a className="mobile-btn" href="/#" title="Hide navigation">Hide navigation</a>
 
-                <ul id="nav" class="nav">
-                    <li className="current"><a class="smoothscroll" href="#home">Home</a></li>
+                <ul id="nav" className="nav">
+                    <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
 	                <li><a className="smoothscroll" href="#about">About</a></li>
 	                <li><a className="smoothscroll" href="#resume">Resume</a></li>
 	                <li><a className="smoothscroll" href="#presentations">Presentations</a></li>
@@ -23,14 +23,14 @@ const header = () => {
                     <span> data engineering</span>, <span>machine learning</span> and 
                     <span> quality assurance</span>. Let's 
                     <a className="smoothscroll" href="#about"> start scrolling </a>
-                    and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+                    and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                     <hr />
                     <SocialLinks className="social" />
                 </div>
             </div>
 
-            <p class="scrolldown">
-                <a class="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+            <p className="scrolldown">
+                <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
             </p>
         </header>
     )

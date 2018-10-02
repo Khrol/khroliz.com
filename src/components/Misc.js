@@ -7,18 +7,6 @@ const misc = () => (
                 <h1>Other links and useful info</h1> 
             </div>
             <a 
-                href="https://www.coursera.org/account/accomplishments/specialization/Z2F8DMBD8W89"
-                target="_blank" rel="noopener noreferrer">
-                Functional Programming in Scala Specialization at Coursera
-            </a>
-            <br />
-            <a 
-                href="https://www.coursera.org/account/accomplishments/verify/NGSXWUFZB2LH"
-                target="_blank" rel="noopener noreferrer">
-                Machine Learning by Angrew Ng at Coursera
-            </a>
-            <br />
-            <a 
                 href="http://imo-official.org/participant_r.aspx?id=7433"
                 target="_blank" rel="noopener noreferrer">
                 Two Silver Medals on International Mathematical Olympiad (2003, 2004)

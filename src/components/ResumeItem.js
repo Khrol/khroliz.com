@@ -8,7 +8,7 @@ const resumeItem = (props) =>
             <p className="info">
                 {props.title}
                 <span>•</span>
-                <em class="date">{props.date}</em>
+                <em className="date">{props.date}</em>
             </p>
             {props.text}
         </div>

@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .courses {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -431,7 +431,7 @@ ul#nav li.current a { color: #F06000; }
 /* Presentations Content */
 .presentations-wrapper .columns { margin-bottom: 36px; }
 .presentations-item .item-wrap {
-   background: #fff;
+   /* background: #fff; */
    overflow: hidden;
    position: relative;
 
@@ -491,6 +491,9 @@ ul#nav li.current a { color: #F06000; }
 }
 .presentations-item .item-wrap img {
    vertical-align: bottom;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 .presentations-item .presentations-item-meta { padding: 18px }
 .presentations-item .presentations-item-meta h5 {
@@ -1012,3 +1015,16 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+.youtube-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.youtube-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
