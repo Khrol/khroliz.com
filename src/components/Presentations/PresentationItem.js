@@ -7,6 +7,9 @@ const cityImage = {
     "Penza, Russia": "/images/cities/penza.png",
     "Kyiv, Ukraine": "/images/cities/kyiv.png",
     "Minsk, Belarus": "/images/cities/minsk.png",
+    "Saint Petersburg, Russia": "/images/cities/st_petersburg.png",
+    "Moscow, Russia": "/images/cities/moscow.png",
+    "Vilnius, Lithuania": "/images/cities/vilnius.png",
 }
 
 const presentationItem = (props) => {
@@ -17,7 +20,7 @@ const presentationItem = (props) => {
             <React.Fragment>
                     <div className="columns presentations-item">
                         <div className="item-wrap">
-                            <a href={"#" + id} title="">
+                            <a href={"#" + id} title={props.title}>
                                 <img alt="" src={cityImage[props.location]} />
                                 <div className="overlay">
                                     <div className="presentations-item-meta">
@@ -33,11 +36,11 @@ const presentationItem = (props) => {
                     </div>
 
                 <div id={id} className="popup-modal mfp-hide">
-                    <div className="youtube-wrapper">
+                    <div className="preview-wrapper">
                         <iframe 
                         title={id}
                         width="100%" height="auto" 
-                        src={props.youtubeLink} 
+                        src={props.previewLink} 
                         frameborder="0" allow="autoplay; encrypted-media" 
                         allowfullscreen></iframe>
                     </div>
@@ -45,7 +48,7 @@ const presentationItem = (props) => {
                         <h4>{props.title}</h4>
                     </div>
                     <div className="link-box">
-                        <Link href={props.details}>Details</Link>
+                        { props.details ? <Link href={props.details}>Details</Link> : null }                        
                         <a className="popup-modal-dismiss">Close</a>
                     </div>
                 </div>

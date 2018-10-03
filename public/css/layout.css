@@ -429,11 +429,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Presentations Content */
-.presentations-wrapper .columns { margin-bottom: 36px; }
+.presentations-wrapper .columns { 
+  margin-bottom: 36px; 
+  padding-bottom: 320px;
+}
 .presentations-item .item-wrap {
    /* background: #fff; */
    overflow: hidden;
-   position: relative;
+   position: absolute;
+   top: 0; bottom: 0; left: 0; right: 0;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -1015,13 +1019,13 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
-.youtube-wrapper {
+.preview-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
-.youtube-wrapper iframe {
+.preview-wrapper iframe {
 	position: absolute;
 	top: 0;
 	left: 0;

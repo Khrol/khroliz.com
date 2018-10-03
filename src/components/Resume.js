@@ -16,7 +16,8 @@ const resume = () => (
                     text={(
                         <p>Team/Tech Lead in Analytics department responsible for data-related topics (ETL, ML) 
                         of <Link href="https://www.toptal.com">Toptal</Link>.
-                        Key technologies: Scala, Spark, Python, Pandas, Luigi, Google Compute Engine.
+                        Technologies: Scala, Spark, Python, Pandas, Luigi, 
+                        Google Cloud (BigQuery, DataStore, GAE, GCE and more).
                         </p>
                     )}
                 />
@@ -47,7 +48,42 @@ const resume = () => (
                         Helping on automated testing development: framework creation and enhancements, process improvements, trainings. 
                         Performance testing. 
                         <br/>
-                        Key technologies: Oracle Siebel, Java, Selenium, JMeter, HP QTP.
+                        Technologies: Oracle Siebel, Java, Selenium, JMeter, HP QTP.
+                        </p>
+                    )}
+                />
+                <ResumeItem
+                    header="EPAM Systems"
+                    title="Trainer, Consultant"
+                    date="March 2012 - July 2013"
+                    text={(
+                        <p>
+                            Providing trainings on Selenium/WebDriver. Consulting on automated testing related issues.
+                        </p>
+                    )}
+                />
+                <ResumeItem
+                    title="Software Testing Team Lead"
+                    date="July 2009 – February 2012"
+                    text={(
+                        <p>
+                            Managing team of 20 people to support UI automation of Oracle ATG eCommerce product.
+                            <br/>
+                            Technologies: HP QTP, Selenium, Flex.
+                        </p>
+                    )}
+                />
+                <ResumeItem
+                    header="A1QA"
+                    title="QA Specialist"
+                    date="April 2006 - July 2009"
+                    text={(
+                        <p>
+                            Black box testing. 
+                            <br/>
+                            Test script development (automated and performance testing). 
+                            <br/>
+                            Leading multiple automated and performance testing projects.
                         </p>
                     )}
                 />
@@ -80,8 +116,7 @@ const resume = () => (
                         )}
                     date="August 2018"
                 />
-                <ResumeItem 
-                    header=""
+                <ResumeItem
                     title={(<a
                         href="https://www.coursera.org/account/accomplishments/verify/NGSXWUFZB2LH"
                         target="_blank" rel="noopener noreferrer">
