@@ -108,22 +108,29 @@ const resume = () => (
             <div className="nine columns main-col">
                 <ResumeItem 
                     header="Coursera"
-                    title={(<a
-                        href="https://www.coursera.org/account/accomplishments/specialization/Z2F8DMBD8W89"
-                        target="_blank" rel="noopener noreferrer">
+                    title={(<Link
+                        href="https://www.coursera.org/account/accomplishments/specialization/Z2F8DMBD8W89">
                         Functional Programming in Scala Specialization
-                        </a>
+                        </Link>
                         )}
                     date="August 2018"
                 />
                 <ResumeItem
-                    title={(<a
-                        href="https://www.coursera.org/account/accomplishments/verify/NGSXWUFZB2LH"
-                        target="_blank" rel="noopener noreferrer">
+                    title={(<Link
+                        href="https://www.coursera.org/account/accomplishments/verify/NGSXWUFZB2LH">
                         Machine Learning
-                        </a>
+                        </Link>
                         )}
                     date="July 2018"
+                />
+                <ResumeItem
+                    header="Udemy"
+                    title={(<Link
+                        href="https://www.udemy.com/certificate/UC-62T6FIP1">
+                        React 16 - The Complete Guide (incl. React Router 4 & Redux)
+                        </Link>
+                    )}
+                    date="October 2018"
                 />
             </div>
         </div>
