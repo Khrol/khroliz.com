@@ -26,9 +26,9 @@ const resume = () => (
                     title="QA Automation Team Lead"
                     date="December 2013 - May 2015"
                     text={(
-                        <p>
+                        <React.Fragment>
                             Building automated testing in <Link href="https://wargaming.com/">Wargaming</Link> Web department
-                             - all the aspects: technology, process, people, infrastructure. 
+                            - all the aspects: technology, process, people, infrastructure. 
                             Technologies: Python, Java, WebDriver, RabbitMQ, Django, Zabbix.
                             <br/>
                             Some open source libs were developed for testing purposes:
@@ -36,7 +36,8 @@ const resume = () => (
                                 <li>- <Link href="https://github.com/wgnet/grail/">Grail</Link></li>
                                 <li>- <Link href="https://github.com/wgnet/webium">Webium</Link></li>
                             </ul>
-                        </p>
+                            <p></p>
+                        </React.Fragment>
                     )}
                 />
                 <ResumeItem

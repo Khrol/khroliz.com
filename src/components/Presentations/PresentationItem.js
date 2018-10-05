@@ -41,8 +41,8 @@ const presentationItem = (props) => {
                         title={id}
                         width="100%" height="auto" 
                         src={props.previewLink} 
-                        frameborder="0" allow="autoplay; encrypted-media" 
-                        allowfullscreen></iframe>
+                        frameBorder="0" allow="autoplay; encrypted-media" 
+                        allowFullScreen={true} mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                     </div>
                     <div className="description-box">
                         <h4>{props.title}</h4>
