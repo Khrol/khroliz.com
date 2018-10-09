@@ -105,6 +105,43 @@ const presentations = () => (
                     conference="IT Spring"
                     previewLink="https://drive.google.com/file/d/1BWD66RgufDegJoPYgCAyhY-027jj96Z3/preview"
                 />
+                <PresentationItem 
+                    title="Good tests change your application"
+                    details="https://seleniumcamp.com/talk/good-tests-change-your-application/"
+                    location="Kyiv, Ukraine"
+                    conference="SeleniumCamp"
+                    previewLink="https://www.youtube.com/embed/joi_vmNLYtk?rel=0"
+                />
+                <PresentationItem 
+                    title="How to do tests quick and improve development efficiency"
+                    details="http://agile.by/2016/01/11/agile-by-gathering-23-yanvarya"
+                    location="Minsk, Belarus"
+                    conference="Agile.by Gathering"
+                    previewLink="https://www.slideshare.net/slideshow/embed_code/key/NwEe66AAKwnCW0"
+                />
+            </PresentationYear>
+            <PresentationYear year="2015">
+                <PresentationItem 
+                    title="Who is a tester in Agile?"
+                    details="http://qafest.com/qafest2015/"
+                    location="Kyiv, Ukraine"
+                    conference="QA Fest"
+                    previewLink="https://www.youtube.com/embed/s4uSeWUDz_w?rel=0"
+                />
+                <PresentationItem 
+                    title="Test Automation: throw away redundant and test the point"
+                    details="http://qafest.com/qafest2015/"
+                    location="Kyiv, Ukraine"
+                    conference="QA Fest"
+                    previewLink="https://www.youtube.com/embed/ZC_GH4AANqc?rel=0"
+                />
+                <PresentationItem 
+                    title="Test Automation: throw away redundant and test the point"
+                    details="https://comaqa.by/2015/09/16/conf2-extra/"
+                    location="Minsk, Belarus"
+                    conference="COMAQA.BY Conf #2"
+                    previewLink="https://www.youtube.com/embed/w1hjnphkACA?rel=0"
+                />
             </PresentationYear>
         </div>
     </section>

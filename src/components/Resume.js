@@ -110,6 +110,14 @@ const resume = () => (
                 <ResumeItem 
                     header="Coursera"
                     title={(<Link
+                        href="https://www.coursera.org/account/accomplishments/specialization/6UM4T5U85S88">
+                        Machine Learning with TensorFlow on Google Cloud Platform Specialization
+                        </Link>
+                        )}
+                    date="October 2018"
+                />
+                <ResumeItem 
+                    title={(<Link
                         href="https://www.coursera.org/account/accomplishments/specialization/Z2F8DMBD8W89">
                         Functional Programming in Scala Specialization
                         </Link>
