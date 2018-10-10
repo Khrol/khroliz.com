@@ -137,7 +137,7 @@ const presentations = () => (
           previewLink="https://www.youtube.com/embed/ZC_GH4AANqc?rel=0"
         />
         <PresentationItem
-          title="Test Automation: throw away redundant and test the point"
+          title="Test Automation: throw away excess and check the point"
           details="https://comaqa.by/2015/09/16/conf2-extra/"
           location="Minsk, Belarus"
           conference="COMAQA.BY Conf #2"
@@ -170,6 +170,114 @@ const presentations = () => (
           location="Kyiv, Ukraine"
           conference="SeleniumCamp"
           previewLink="https://www.youtube.com/embed/XrL1BLgkKyA?rel=0"
+        />
+      </PresentationYear>
+      <PresentationYear year="2014">
+        <PresentationItem
+          title="Modern QA: let's do it quickly"
+          location="Minsk, Belarus"
+          conference="SEF.BY to Students"
+          previewLink="//www.slideshare.net/slideshow/embed_code/key/NZ6ewYgs0bpYYh"
+        />
+        <PresentationItem
+          title="Increase Selenium tests stability via JavaScript"
+          // eslint-disable-next-line max-len
+          details="https://confengine.com/selenium-conf-2014/proposal/335/increase-selenium-tests-stability-via-javascript"
+          location="Bangalore, India"
+          conference="SeleniumConf"
+          previewLink="https://www.youtube.com/embed/GvRA9VAA9rw?rel=0"
+          language="ENG"
+        />
+        <PresentationItem
+          title="WG Talks for Students"
+          location="Minsk, Belarus"
+          conference="SEF.BY to Students"
+          previewLink="//www.slideshare.net/slideshow/embed_code/key/NZ6ewYgs0bpYYh"
+        />
+        <PresentationItem
+          title="Test Automation: throw away excess and check the point"
+          details="https://sqadays.com/en/talk/19552"
+          location="Moscow, Russia"
+          conference="SQA Days-15"
+          previewLink="https://player.vimeo.com/video/93944414"
+        />
+        <PresentationItem
+          title="Increase Selenium tests stability via JavaScript"
+          details="https://seleniumcamp.com/archive/selenium-camp-2014/materials/js-with-selenium/"
+          location="Kyiv, Ukraine"
+          conference="SeleniumCamp"
+          previewLink="//www.slideshare.net/slideshow/embed_code/key/pska2KeSlEFozi"
+        />
+      </PresentationYear>
+      <PresentationYear year="2013">
+        <PresentationItem
+          title="Increase Selenium tests stability via JavaScript"
+          details="http://confetqa.ru/program-selen/#khrol"
+          location="Online"
+          conference="Selen ConfeT&QA, Autumn 2013"
+          previewLink="https://www.youtube.com/embed/moclYbCXMPM?rel=0"
+        />
+        <PresentationItem
+          title="Why test automation projects are failing?"
+          details="http://www.tapost.org/tapost-2013/"
+          location="Riga, Latvia"
+          conference="TAPOST"
+          previewLink="//www.slideshare.net/slideshow/embed_code/key/wkuxXZANC83hoR"
+          language="ENG"
+        />
+        <PresentationItem
+          title="Can we rotate the pyramid? Automate tests with less number of middlemen."
+          details="http://confetqa.ru/auto-confetqa-vesna-2013/#khrol"
+          location="Online"
+          conference="Auto ConfeT&QA, Spring 2013"
+          previewLink="https://www.youtube.com/embed/ZentmPn0_pg?rel=0"
+        />
+        <PresentationItem
+          title="WebDriver: Usual Mistakes of Beginners"
+          details="https://seleniumcamp.com/archive/selenium-camp-2013/materials/mistakes-of-beginners/"
+          location="Kyiv, Ukraine"
+          conference="SeleniumCamp"
+          previewLink="https://www.youtube.com/embed/LtTmki_75vg?rel=0"
+        />
+      </PresentationYear>
+      <PresentationYear year="2012">
+        <PresentationItem
+          title="Why test automation projects are failing?"
+          details="https://sqadays.com/ru/talk/7627"
+          location="Minsk, Belarus"
+          conference="SQA Days-12"
+          previewLink="https://www.youtube.com/embed/SgGH9V4LB5s?rel=0"
+        />
+        <PresentationItem
+          title="Sikuli – tool to automate GUI applications"
+          details="http://confetqa.ru/auto-confetqa-vesna-2012/#hrol"
+          location="Online"
+          conference="Auto ConfeT&QA, Spring 2012"
+          previewLink="https://www.youtube.com/embed/LD6ZRKdlRHA?rel=0"
+        />
+        <PresentationItem
+          title="WebDriver: One Migration History"
+          details="https://seleniumcamp.com/archive/selenium-camp-2012/materials/migration/"
+          location="Kyiv, Ukraine"
+          conference="SeleniumCamp"
+          previewLink="https://www.youtube.com/embed/8ttVa0NxPvA?rel=0"
+        />
+      </PresentationYear>
+      <PresentationYear year="2011">
+        <PresentationItem
+          title="How to automate Flex application with Selenium RC"
+          details="https://seleniumcamp.com/archive/selenium-camp-2011/materials/"
+          location="Kyiv, Ukraine"
+          conference="SeleniumCamp"
+          previewLink="https://www.youtube.com/embed/Owtsn117cO4?rel=0"
+        />
+      </PresentationYear>
+      <PresentationYear year="2010">
+        <PresentationItem
+          title="Who should write automated tests?"
+          location="Minsk, Belarus"
+          conference="SEF"
+          previewLink="//www.slideshare.net/slideshow/embed_code/key/idMr6jRfkgk2vK"
         />
       </PresentationYear>
     </div>

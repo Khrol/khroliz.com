@@ -64,20 +64,20 @@ const resume = () => (
           date="March 2012 - July 2013"
           text={(
             <p>
-                            Providing trainings on Selenium/WebDriver. Consulting on automated testing related issues.
+              Providing trainings on Selenium/WebDriver. Consulting on automated testing related issues.
             </p>
-                    )}
+          )}
         />
         <ResumeItem
           title="Software Testing Team Lead"
           date="July 2009 – February 2012"
           text={(
             <p>
-                            Managing team of 20 people to support UI automation of Oracle ATG eCommerce product.
+              Managing team of 20 people to support UI automation of Oracle ATG eCommerce product.
               <br />
-                            Technologies: HP QTP, Selenium, Flex.
+              Technologies: Java, HP QTP, Selenium, Flex.
             </p>
-                    )}
+          )}
         />
         <ResumeItem
           header="A1QA"
@@ -85,13 +85,13 @@ const resume = () => (
           date="April 2006 - July 2009"
           text={(
             <p>
-                            Black box testing.
+              Black box testing.
               <br />
-                            Test script development (automated and performance testing).
+              Test script development (automated and performance testing).
               <br />
-                            Leading multiple automated and performance testing projects.
+              Leading multiple automated and performance testing projects.
             </p>
-                    )}
+          )}
         />
       </div>
     </div>
