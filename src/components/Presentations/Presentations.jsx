@@ -11,6 +11,14 @@ const presentations = () => (
       </div>
       <PresentationYear year="2018">
         <PresentationItem
+          title="Testing artificial intelligence: which side to approach?"
+          details="https://item.com.ua/en#!/tproduct/67151017-1534030289949"
+          location="Dnipro, Ukraine"
+          conference="ITEM"
+          // eslint-disable-next-line max-len
+          previewLink="https://docs.google.com/presentation/d/e/2PACX-1vT0cgL67CsoRyXDOmayswzxR9rkHoI78oxxK37ub3aP8FlSu3-Zse8A-T9S2P0twIKLMj8AsUgM8XHS/embed?start=false&loop=false&delayms=3000"
+        />
+        <PresentationItem
           title="How to test Artificial Intelligence and Machine Learning solutions?"
           details="http://qmoconference.com/Archive/2018_04/index.html"
           location="Lviv, Ukraine"

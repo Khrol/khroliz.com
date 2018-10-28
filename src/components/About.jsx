@@ -13,7 +13,7 @@ const about = () => (
           More than 12 years of industry experience in different scale companies on various roles:
           engineer, team/tech lead, manager, consultant, trainer. My main areas of interest are data engineering,
           machine learning and quality assurance. Main languages (tech stacks) are Scala and Python.
-          Meanwhile I have experince also in Ruby, C#, Java, JavaScript and can easily write code there as well.
+          Meanwhile I have also experience in Ruby, C#, Java, JavaScript and can easily write code there as well.
           I&apos;m actively participating in regional IT conferences as a speaker and you can explore
           my presentations at <a className="smoothscroll" href="#presentations">presentations section</a>.
         </p>

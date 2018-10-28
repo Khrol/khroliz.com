@@ -15,6 +15,7 @@ const cityImage = {
   'Bangalore, India': '/images/cities/bangalore.png',
   Online: '/images/cities/online.png',
   'Riga, Latvia': '/images/cities/riga.png',
+  'Dnipro, Ukraine': '/images/cities/dnipro.png',
 };
 
 const presentationItem = props => (
