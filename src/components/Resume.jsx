@@ -146,6 +146,15 @@ const resume = () => (
             )}
           date="October 2018"
         />
+        <ResumeItem
+          header="Stepik"
+          title={(
+            <Link href="https://stepik.org/cert/139775">
+              Introduction to Statistics
+            </Link>
+            )}
+          date="November 2018"
+        />
       </div>
     </div>
   </section>
