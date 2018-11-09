@@ -15,8 +15,7 @@ const presentations = () => (
           details="https://item.com.ua/en#!/tproduct/67151017-1534030289949"
           location="Dnipro, Ukraine"
           conference="ITEM"
-          // eslint-disable-next-line max-len
-          previewLink="https://docs.google.com/presentation/d/e/2PACX-1vT0cgL67CsoRyXDOmayswzxR9rkHoI78oxxK37ub3aP8FlSu3-Zse8A-T9S2P0twIKLMj8AsUgM8XHS/embed?start=false&loop=false&delayms=3000"
+          previewLink="https://www.youtube.com/embed/WTXin9dQ6w4?rel=0"
         />
         <PresentationItem
           title="How to test Artificial Intelligence and Machine Learning solutions?"
