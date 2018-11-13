@@ -11,6 +11,7 @@ const socialLinks = ({ className }) => (
     <SocialLink url="https://www.facebook.com/khroliz" icon={['fab', 'facebook']} />
     <SocialLink url="viber://chat?number=375297447856" icon={['fab', 'viber']} />
     <SocialLink url="https://www.slideshare.net/khroliz" icon={['fab', 'slideshare']} />
+    <SocialLink url="https://stackoverflow.com/users/1849364/igor-khrol" icon={['fab', 'stack-overflow']} />
   </ul>
 );
 
