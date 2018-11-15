@@ -17,8 +17,19 @@ const resume = () => (
             <p>
               Team/Tech Lead in Analytics department responsible for data-related topics (ETL, ML) of
               {' '}<Link href="https://www.toptal.com">Toptal</Link>.
-              {' '}Technologies: Scala, Spark, Python, Pandas, Luigi,
-              Google Cloud (BigQuery, DataStore, GAE, GCE and more).
+              <ul>
+                <li>- Embedded quality as an integral part of the development process.
+                  Tuning CI/CD pipeline to provide to shorten feedback loop.
+                </li>
+                <li>- Hands-on leadership by example.
+                  Helping fellow team members to understand the framework, troubleshoot issues and improve.
+                </li>
+                <li>- Switched to Google Cloud to optimize infrastructure and maintenance costs.
+                  Migrated ML microservices to GAE.
+                </li>
+              </ul>
+              <i>Technologies</i>: Scala, Spark, Python, Pandas, Luigi, scikit-learn,
+              Google Cloud (BigQuery, DataStore, GAE, GCE, Storage and more), Ruby, Ruby on Rails, Postgres.
             </p>
             )}
         />
@@ -33,13 +44,19 @@ const resume = () => (
               <Link href="https://wargaming.com/">Wargaming</Link>
               {' '}
               Web department - all the aspects: technology, process, people, infrastructure.
-              Technologies: Python, Java, WebDriver, RabbitMQ, Django, Zabbix.
+              <br />
+              Built the community around test automation expertise to share knowledge
+              between projects/departments/regional offices.
+              <br />
+              Implemented a radical shift-left in test strategy.
+              The majority of the test automation effort was switched from UI to API and unit tests.
               <br />
               Some open source libs were developed for testing purposes:
               <ul>
                 <li> - <Link href="https://github.com/wgnet/grail/">Grail</Link></li>
                 <li> - <Link href="https://github.com/wgnet/webium">Webium</Link></li>
               </ul>
+              <i>Technologies</i>: Python, Java, WebDriver, RabbitMQ, Django, Zabbix.
               <p />
             </React.Fragment>
             )}
