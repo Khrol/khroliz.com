@@ -172,6 +172,15 @@ const resume = () => (
             )}
           date="November 2018"
         />
+        <ResumeItem
+          header="LinkedIn"
+          title={(
+            <Link href="https://drive.google.com/file/d/1bewT5KnEBDnBHPT7hyn7C5KBkvGap8cp/view?usp=sharing">
+              Advanced Node.js
+            </Link>
+          )}
+          date="November 2018"
+        />
       </div>
     </div>
   </section>
