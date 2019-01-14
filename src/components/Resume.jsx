@@ -175,6 +175,22 @@ const resume = () => (
         <ResumeItem
           header="LinkedIn"
           title={(
+            <Link href="https://drive.google.com/open?id=1rO0nisEaBWmfGCB0fiOSqahhmn44unyR">
+              Analyzing Big Data with Hive
+            </Link>
+          )}
+          date="January 2019"
+        />
+        <ResumeItem
+          title={(
+            <Link href="https://drive.google.com/open?id=1eouXivaC0wepGaNx-KQQ5nylFrklVONm">
+              Learning Scala Web Development
+            </Link>
+          )}
+          date="November 2018"
+        />
+        <ResumeItem
+          title={(
             <Link href="https://drive.google.com/file/d/1bewT5KnEBDnBHPT7hyn7C5KBkvGap8cp/view?usp=sharing">
               Advanced Node.js
             </Link>
