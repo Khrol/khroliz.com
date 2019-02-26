@@ -10,6 +10,16 @@ const resume = () => (
       </div>
       <div className="nine columns main-col">
         <ResumeItem
+          header="Automattic"
+          title="Data Engineer"
+          date="February-2019 - now"
+          text={(
+            <p>
+              <Link href="https://wordpress.com/">WordPress.com</Link> - data supply.
+            </p>
+          )}
+        />
+        <ResumeItem
           header="Toptal"
           title="Team Lead"
           date="April 2015 - March 2018"

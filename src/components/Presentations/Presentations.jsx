@@ -9,6 +9,23 @@ const presentations = () => (
         <h1>My Public Presentations</h1>
         <p style={{ textAlign: 'center' }}>Most of them are in Russian.</p>
       </div>
+      <PresentationYear year="2019">
+        <PresentationItem
+          title="Monads for Testers"
+          details="https://seleniumcamp.com/"
+          location="Kyiv, Ukraine"
+          conference="SeleniumCamp"
+          previewLink="https://www.youtube.com/embed/djJIi7RGqjk?rel=0"
+        />
+        <PresentationItem
+          title="Monads for Testers"
+          details="http://delex-conf.com/"
+          location="Minsk, Belarus"
+          conference="DelEx"
+          // eslint-disable-next-line max-len
+          previewLink="https://docs.google.com/presentation/d/e/2PACX-1vToOdhETvsxsR7Eu0fCiJZggBY4Q7U55W-54fm75iJ0FVgEzY6uNgf6y1MGR7llNJqKnatpK7oFzPrV/embed"
+        />
+      </PresentationYear>
       <PresentationYear year="2018">
         <PresentationItem
           title="Testing artificial intelligence: which side to approach?"
