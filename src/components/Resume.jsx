@@ -16,6 +16,13 @@ const resume = () => (
           text={(
             <p>
               <Link href="https://wordpress.com/">WordPress.com</Link> - data supply.
+              <ul>
+                <li>- Drive Data Governance initiative.</li>
+                <li>- Support Cloudera based Hadoop cluster.</li>
+                <li>- Migrate transformations execution from Oozie to Airflow.</li>
+                <li>- Bring self-service sql-based transformation engine into Data department.</li>
+              </ul>
+              <i>Technologies</i>: Scala, Python, Spark, Airflow, Hadoop, Hive, Impala.
             </p>
           )}
         />

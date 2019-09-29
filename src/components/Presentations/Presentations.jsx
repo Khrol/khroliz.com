@@ -11,6 +11,14 @@ const presentations = () => (
       </div>
       <PresentationYear year="2019">
         <PresentationItem
+          title="Big Data Testing"
+          details="http://qaasp.tech/igor-khrol"
+          location="Minsk, Belarus"
+          conference="QAASP"
+          // eslint-disable-next-line max-len
+          previewLink="https://docs.google.com/presentation/d/e/2PACX-1vQ69CxeXTS4h4b59US5vrHoCJYqGEySfwqAsxLMy2d7pt-VbdC7wfAuMaywwXLi4fwxUyX0GTF5zvzY/embed"
+        />
+        <PresentationItem
           title="Monads for Testers"
           details="https://seleniumcamp.com/"
           location="Kyiv, Ukraine"
