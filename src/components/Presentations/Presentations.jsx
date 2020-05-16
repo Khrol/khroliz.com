@@ -9,7 +9,23 @@ const presentations = () => (
         <h1>My Public Presentations</h1>
         <p style={{ textAlign: 'center' }}>Most of them are in Russian.</p>
       </div>
+      <PresentationYear year="2020">
+        <PresentationItem
+          title="BOF: SDET – yet another rattle title or separate engineering line?"
+          details="https://delex-conf.com/bof/bof-sdet-yet-another-rattle-title-or-separate-engineering-line/"
+          location="Minsk, Belarus"
+          conference="DelEx"
+          previewLink="https://www.youtube.com/embed/x-d6wK83iBo?rel=0"
+        />
+      </PresentationYear>
       <PresentationYear year="2019">
+        <PresentationItem
+          title="Big Data Testing"
+          details="https://community-z.com/events/dsc19#_=_"
+          location="Vitebsk, Belarus"
+          conference="DSC"
+          previewLink="https://www.youtube.com/embed/WRJ02C0W9wE?rel=0"
+        />
         <PresentationItem
           title="Big Data Testing"
           details="http://qaasp.tech/igor-khrol"
