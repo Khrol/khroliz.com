@@ -9,6 +9,17 @@ const presentations = () => (
         <h1>My Public Presentations</h1>
         <p style={{ textAlign: 'center' }}>Most of them are in Russian.</p>
       </div>
+      <PresentationYear year="2021">
+        <PresentationItem
+          title="Testing artificial intelligence: which side to approach?"
+          // eslint-disable-next-line max-len
+          details="https://a4qworldcongress.com/events/%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%bb%d0%b5/"
+          location="Online"
+          conference="A4Q World Congress"
+          // eslint-disable-next-line max-len
+          previewLink="https://a4qworldcongress.com/events/%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%bb%d0%b5/"
+        />
+      </PresentationYear>
       <PresentationYear year="2020">
         <PresentationItem
           title="BOF: SDET – yet another rattle title or separate engineering line?"
@@ -16,6 +27,13 @@ const presentations = () => (
           location="Minsk, Belarus"
           conference="DelEx"
           previewLink="https://www.youtube.com/embed/x-d6wK83iBo?rel=0"
+        />
+        <PresentationItem
+          title="Big Data Testing"
+          details="https://ritfest.ru/2020/abstracts/6896"
+          location="Online"
+          conference="РИТ++"
+          previewLink="https://www.youtube.com/embed/AF8dufCHhRs?rel=0"
         />
       </PresentationYear>
       <PresentationYear year="2019">
@@ -325,7 +343,7 @@ const presentations = () => (
           title="Who should write automated tests?"
           location="Minsk, Belarus"
           conference="SEF"
-          previewLink="//www.slideshare.net/slideshow/embed_code/key/idMr6jRfkgk2vK"
+          previewLink="https://www.slideshare.net/slideshow/embed_code/key/idMr6jRfkgk2vK"
         />
       </PresentationYear>
     </div>

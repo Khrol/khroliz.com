@@ -18,8 +18,8 @@ const header = () => (
     <div className="row banner">
       <div className="banner-text">
         <h1 className="responsive-headline">I&apos;m Igor Khrol.</h1>
-        <h3>I&apos;m a Belarus based <span>software engineer</span> with focus on
-          <span> data engineering</span>, <span>machine learning</span> and
+        <h3>I&apos;m a Lithuania-based <span>software engineer</span> with a focus on
+          <span> data engineering</span>, <span>machine learning</span>, and
           <span> quality assurance</span>. Let&apos;s
           <a className="smoothscroll" href="#about"> start scrolling </a>
           and learn more <a className="smoothscroll" href="#about">about me</a>.

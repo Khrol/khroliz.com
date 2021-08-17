@@ -11,16 +11,17 @@ const resume = () => (
       <div className="nine columns main-col">
         <ResumeItem
           header="Automattic"
-          title="Data Engineer"
+          title="Data Engineer / Team Lead"
           date="February-2019 - now"
           text={(
             <p>
               <Link href="https://wordpress.com/">WordPress.com</Link> - data supply.
               <ul>
                 <li>- Drive Data Governance initiative.</li>
-                <li>- Support Cloudera based Hadoop cluster.</li>
+                <li>- Support Cloudera-based Hadoop cluster.</li>
                 <li>- Migrate transformations execution from Oozie to Airflow.</li>
-                <li>- Bring self-service sql-based transformation engine into Data department.</li>
+                <li>- Implement self-service sql-based transformation engine.</li>
+                <li>- Team management: reporting, hiring, reviews, planning etc.</li>
               </ul>
               <i>Technologies</i>: Scala, Python, Spark, Airflow, Hadoop, Hive, Impala.
             </p>

@@ -4,6 +4,12 @@
 
 The source code of [khroliz.com](https://khroliz.com).
 
+# Run Locally
+
+```bash
+$ npm start
+```
+
 # Build and Deploy
 
 ```bash
