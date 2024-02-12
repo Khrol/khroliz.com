@@ -2,7 +2,6 @@ import React from 'react';
 import { UID } from 'react-uid';
 import Link from '../Link';
 
-
 const cityImage = {
   'Lviv, Ukraine': '/images/cities/lviv.png',
   'Penza, Russia': '/images/cities/penza.png',
@@ -17,12 +16,13 @@ const cityImage = {
   'Riga, Latvia': '/images/cities/riga.png',
   'Dnipro, Ukraine': '/images/cities/dnipro.png',
   'Vitebsk, Belarus': '/images/cities/vitebsk.png',
+  'Lisbon, Portugal': '/images/cities/lisbon.png',
 };
 
-const presentationItem = props => (
-  <UID name={id => `modal-${id}`}>
-    { id => (
-      <React.Fragment>
+const presentationItem = (props) => (
+  <UID name={(id) => `modal-${id}`}>
+    { (id) => (
+      <>
         <div className="columns presentations-item">
           <div className="item-wrap">
             <a href={`#${id}`} title={props.title}>
@@ -62,7 +62,7 @@ const presentationItem = props => (
             <a className="popup-modal-dismiss" href="/">Close</a>
           </div>
         </div>
-      </React.Fragment>
+      </>
     )}
   </UID>
 );

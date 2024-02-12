@@ -7,8 +7,34 @@ const presentations = () => (
     <div className="row">
       <div className="twelve columns collapsed">
         <h1>My Public Presentations</h1>
-        <p style={{ textAlign: 'center' }}>Most of them are in Russian.</p>
       </div>
+      <PresentationYear year="2023">
+        <PresentationItem
+          title="How to Test BigData/ETL Solutions?"
+          details="https://events.pinetool.ai/3078/#sessions/100683"
+          location="Vilnius, Lithuania"
+          conference="TestCon"
+          previewLink="https://www.youtube.com/embed/umw8X5umHyw?rel=0"
+          language="ENG"
+        />
+        <PresentationItem
+          title="Big Data With Open Source Solutions"
+          details="https://events.pinetool.ai/3079/#sessions/101328"
+          location="Vilnius, Lithuania"
+          conference="Big Data Conference Europe"
+          previewLink="https://www.youtube.com/embed/Ex6CfJlWBgk?rel=0"
+          language="ENG"
+        />
+        <PresentationItem
+          title="How to Test BigData/ETL Solutions?"
+          details="https://epichey.dev/igorkhrol"
+          location="Lisbon, Portugal"
+          conference="EpicHey"
+          // eslint-disable-next-line max-len
+          previewLink="https://docs.google.com/presentation/d/e/2PACX-1vRAGwwyKNIS7CeOq0Pdg7fhH62P59FOlcjKDNneA-U5t4sgkjQWiAggqbkfvbUR8ERf6FoLpg2dCl3T/embed"
+          language="ENG"
+        />
+      </PresentationYear>
       <PresentationYear year="2021">
         <PresentationItem
           title="Testing artificial intelligence: which side to approach?"

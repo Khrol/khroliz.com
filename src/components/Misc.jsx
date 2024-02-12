@@ -15,9 +15,6 @@ const misc = () => (
         <img src="https://projecteuler.net/profile/Igor.Khrol.png" alt="ProjectEuler" />
       </Link>
       <br />
-      <Link href="https://sites.google.com/site/khroliz/">
-          Old www.khroliz.com
-      </Link>
     </div>
   </section>
 );

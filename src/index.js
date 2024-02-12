@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom';
 import './index.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -9,6 +9,9 @@ import registerServiceWorker from './registerServiceWorker';
 
 library.add(fab, faEnvelope);
 
+const root = document.getElementById('root');
+const reactRoot = createRoot(root);
 // eslint-disable-next-line react/jsx-filename-extension
-ReactDOM.render(<App />, document.getElementById('root'));
+reactRoot.render(<App />);
+
 registerServiceWorker();

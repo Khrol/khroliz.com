@@ -11,19 +11,18 @@ const resume = () => (
       <div className="nine columns main-col">
         <ResumeItem
           header="Automattic"
-          title="Data Engineer / Team Lead"
+          title="Head of Data Engineering / Team Lead / Data Engineer"
           date="February-2019 - now"
           text={(
             <p>
               <Link href="https://wordpress.com/">WordPress.com</Link> - data supply.
               <ul>
-                <li>- Drive Data Governance initiative.</li>
-                <li>- Support Cloudera-based Hadoop cluster.</li>
-                <li>- Migrate transformations execution from Oozie to Airflow.</li>
+                <li>- Support Hadoop cluster and ecosystem of related tools that are used for internal analytics.</li>
                 <li>- Implement self-service sql-based transformation engine.</li>
-                <li>- Team management: reporting, hiring, reviews, planning etc.</li>
+                <li>- Team management: reporting, hiring, reviews, planning.</li>
               </ul>
-              <i>Technologies</i>: Scala, Python, Spark, Airflow, Hadoop, Hive, Impala.
+              <i>Technologies</i>: Spark, Trino, Docker, Hive, Impala, Hadoop, Airflow,
+              Avro, Parquet, MySQL, Postgres, MariaDB, JupyterHub.
             </p>
           )}
         />
@@ -56,7 +55,7 @@ const resume = () => (
           title="QA Automation Team Lead"
           date="December 2013 - May 2015"
           text={(
-            <React.Fragment>
+            <>
               Building automated testing in
               {' '}
               <Link href="https://wargaming.com/">Wargaming</Link>
@@ -76,7 +75,7 @@ const resume = () => (
               </ul>
               <i>Technologies</i>: Python, Java, WebDriver, RabbitMQ, Django, Zabbix.
               <p />
-            </React.Fragment>
+            </>
             )}
         />
         <ResumeItem

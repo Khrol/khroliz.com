@@ -30,7 +30,7 @@ const header = () => (
     </div>
 
     <p className="scrolldown">
-      <a className="smoothscroll" href="#about"><i className="icon-down-circle" /></a>
+      <a className="smoothscroll" href="#about" aria-label="Scroll"><i className="icon-down-circle" /></a>
     </p>
   </header>
 );

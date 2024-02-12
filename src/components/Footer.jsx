@@ -13,7 +13,7 @@ const footer = () => (
       </div>
     </div>
     <div id="go-top" style={{ display: 'block' }}>
-      <a className="smoothscroll" title="Back to Top" href="#home">
+      <a className="smoothscroll" title="Back to Top" href="#home" aria-label="Back to Top">
         <i className="icon-up-open" />
       </a>
     </div>
