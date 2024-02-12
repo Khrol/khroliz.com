@@ -1,6 +1,5 @@
 import React from 'react';
-import { UID } from 'react-uid';
-import Link from '../Link';
+import SocialLink from '../SocialLink';
 
 const cityImage = {
   'Lviv, Ukraine': '/images/cities/lviv.png',
@@ -20,51 +19,36 @@ const cityImage = {
 };
 
 const presentationItem = (props) => (
-  <UID name={(id) => `modal-${id}`}>
-    { (id) => (
-      <>
-        <div className="columns presentations-item">
-          <div className="item-wrap">
-            <a href={`#${id}`} title={props.title}>
-              <img alt="" src={cityImage[props.location]} />
-              <div className="overlay">
-                <div className="presentations-item-meta">
-                  <h5>{props.conference}</h5>
-                  <h6>{props.location}</h6>
-                  <p>{props.title}</p>
-                  <p><b>{props.language || 'RUS'}</b></p>
-                </div>
-              </div>
-              <div className="link-icon"><i className="icon-plus" /></div>
-            </a>
-          </div>
+  <div className="columns presentations-item">
+    <div className="item-wrap">
+      <img alt="" src={cityImage[props.location]} />
+      <div className="overlay">
+        <div className="presentations-item-meta">
+          <h5>{props.conference}</h5>
+          <h6>{props.location}</h6>
+          <p>{props.title}</p>
+          <p><b>{props.language || 'RUS'}</b></p>
+          <br />
+          <ul className="links">
+            { props.youtube ? (
+              <SocialLink
+                className="social"
+                url={`https://youtube.com/watch?v=${props.youtube}`}
+                icon={['fab', 'youtube']}
+              />
+            ) : null }
+            { props.link ? (
+              <SocialLink
+                className="social"
+                url={props.link}
+                icon="link"
+              />
+            ) : null }
+          </ul>
         </div>
-
-        <div id={id} className="popup-modal mfp-hide">
-          <div className="preview-wrapper">
-            <iframe
-              title={id}
-              width="100%"
-              height="auto"
-              src={props.previewLink}
-              frameBorder="0"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-              mozallowfullscreen="true"
-              webkitallowfullscreen="true"
-            />
-          </div>
-          <div className="description-box">
-            <h4>{props.title}</h4>
-          </div>
-          <div className="link-box">
-            { props.details ? <Link href={props.details}>Details</Link> : null }
-            <a className="popup-modal-dismiss" href="/">Close</a>
-          </div>
-        </div>
-      </>
-    )}
-  </UID>
+      </div>
+    </div>
+  </div>
 );
 
 export default presentationItem;

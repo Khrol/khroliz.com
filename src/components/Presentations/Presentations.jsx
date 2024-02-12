@@ -11,23 +11,23 @@ const presentations = () => (
       <PresentationYear year="2023">
         <PresentationItem
           title="How to Test BigData/ETL Solutions?"
-          details="https://events.pinetool.ai/3078/#sessions/100683"
           location="Vilnius, Lithuania"
           conference="TestCon"
-          previewLink="https://www.youtube.com/embed/umw8X5umHyw?rel=0"
+          link="https://events.pinetool.ai/3078/#sessions/100683"
+          youtube="umw8X5umHyw"
           language="ENG"
         />
         <PresentationItem
           title="Big Data With Open Source Solutions"
-          details="https://events.pinetool.ai/3079/#sessions/101328"
+          link="https://events.pinetool.ai/3079/#sessions/101328"
           location="Vilnius, Lithuania"
           conference="Big Data Conference Europe"
-          previewLink="https://www.youtube.com/embed/Ex6CfJlWBgk?rel=0"
+          youtube="Ex6CfJlWBgk"
           language="ENG"
         />
         <PresentationItem
           title="How to Test BigData/ETL Solutions?"
-          details="https://epichey.dev/igorkhrol"
+          link="https://epichey.dev/igorkhrol"
           location="Lisbon, Portugal"
           conference="EpicHey"
           // eslint-disable-next-line max-len
@@ -39,11 +39,9 @@ const presentations = () => (
         <PresentationItem
           title="Testing artificial intelligence: which side to approach?"
           // eslint-disable-next-line max-len
-          details="https://a4qworldcongress.com/events/%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%bb%d0%b5/"
+          link="https://a4qworldcongress.com/events/%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%bb%d0%b5/"
           location="Online"
           conference="A4Q World Congress"
-          // eslint-disable-next-line max-len
-          previewLink="https://a4qworldcongress.com/events/%d1%82%d0%b5%d1%81%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-%d0%b8%d1%81%d0%ba%d1%83%d1%81%d1%81%d1%82%d0%b2%d0%b5%d0%bd%d0%bd%d0%be%d0%b3%d0%be-%d0%b8%d0%bd%d1%82%d0%b5%d0%bb%d0%bb%d0%b5/"
         />
       </PresentationYear>
       <PresentationYear year="2020">
@@ -52,14 +50,14 @@ const presentations = () => (
           details="https://delex-conf.com/bof/bof-sdet-yet-another-rattle-title-or-separate-engineering-line/"
           location="Minsk, Belarus"
           conference="DelEx"
-          previewLink="https://www.youtube.com/embed/x-d6wK83iBo?rel=0"
+          youtube="x-d6wK83iBo"
         />
         <PresentationItem
           title="Big Data Testing"
-          details="https://ritfest.ru/2020/abstracts/6896"
+          link="https://ritfest.ru/2020/abstracts/6896"
           location="Online"
           conference="РИТ++"
-          previewLink="https://www.youtube.com/embed/AF8dufCHhRs?rel=0"
+          youtube="AF8dufCHhRs"
         />
       </PresentationYear>
       <PresentationYear year="2019">
