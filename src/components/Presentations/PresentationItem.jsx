@@ -37,6 +37,27 @@ const presentationItem = (props) => (
                 icon={['fab', 'youtube']}
               />
             ) : null }
+            { props.slidesDrive ? (
+              <SocialLink
+                className="social"
+                url={`https://docs.google.com/presentation/d/e/${props.slidesDrive}/embed`}
+                icon={['fa-brands', 'fa-google-drive']}
+              />
+            ) : null }
+            { props.slideshare ? (
+              <SocialLink
+                className="social"
+                url={`https://www.slideshare.net/slideshow/embed_code/key/${props.slideshare}`}
+                icon={['fa-brands', 'fa-slideshare']}
+              />
+            ) : null }
+            { props.videoLink ? (
+              <SocialLink
+                className="social"
+                url={props.videoLink}
+                icon="video"
+              />
+            ) : null }
             { props.link ? (
               <SocialLink
                 className="social"

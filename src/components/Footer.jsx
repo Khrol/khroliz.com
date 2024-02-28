@@ -7,7 +7,7 @@ const footer = () => (
       <div className="twelve columns">
         <SocialLinks className="social-links" />
         <ul className="copyright">
-          <li>&copy; Copyright 2021 Igor Khrol</li>
+          <li>&copy; Copyright 2024 Igor Khrol</li>
           <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
         </ul>
       </div>

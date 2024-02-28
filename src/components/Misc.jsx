@@ -7,7 +7,7 @@ const misc = () => (
       <div className="text-container">
         <h1>Other links and useful info</h1>
       </div>
-      <Link href="http://imo-official.org/participant_r.aspx?id=7433">
+      <Link href="https://imo-official.org/participant_r.aspx?id=7433">
         Two Silver Medals on International Mathematical Olympiad (2003, 2004)
       </Link>
       <br />
